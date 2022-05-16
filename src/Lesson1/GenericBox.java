@@ -32,6 +32,8 @@ public class GenericBox <TYPE extends Fruit> {
     }
 
 
+
+
     public void transfer(GenericBox<? super TYPE> box) {
         box.fruitList.addAll(this.fruitList);
         fruitList.clear();
