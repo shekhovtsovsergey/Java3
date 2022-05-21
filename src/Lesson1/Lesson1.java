@@ -72,7 +72,7 @@ public class Lesson1 {
         GenericBox<Orange> orangeGenericBox2 = new GenericBox<Orange>(orange1);
         //System.out.println("Создали вторую коробку апельсинов = " + orangeGenericBox2.getTotalWeight());
 
-        orangeGenericBox.transfer(orangeGenericBox2);
+        orangeGenericBox2.transfer(orangeGenericBox);
 
         System.out.println("Проверка сколько в первой коробке = " + orangeGenericBox.getTotalWeight());
         System.out.println("Проверка сколько во второй коробке = " + orangeGenericBox2.getTotalWeight());
